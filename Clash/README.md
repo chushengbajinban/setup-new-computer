@@ -26,7 +26,7 @@
 
 （具体可能因`ubuntu`版本不同而有差异，请自行探索）
 
-<img src="README_fig/linux-clash-5.jpg" title="" alt="" width="283">
+<img src="./README_fig/linux-clash-5.jpg" title="" alt="" width="283">
 
 选择`网络代理`模式为`手动`,分别修改下列参数
 
