@@ -13,7 +13,10 @@
 
 “机场”网站推荐见`附录`
 
-<img src="README_fig/2022-10-23-17-22-33-image.png" title="" alt="" width="202">
+<p align = "center">
+<img src="./README_fig/2022-10-23-17-22-33-image.png" width = "202" border="5" />
+</p>
+
 
 在浏览器打开对应链接，`ctrl+s`保存为`config.yaml`到`~/clash`目录下
 
