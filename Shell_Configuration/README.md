@@ -1,6 +1,8 @@
 # Shell 脚本配置
 ### Bash 
 1.快捷键映射`alias`
+
+举例
 ```
 alias vpnclash='cd /home/up/softwares/clash && chmod +x clash && ./clash -d .'
 ```
