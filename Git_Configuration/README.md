@@ -18,7 +18,7 @@ cat ~/.ssh/id_rsa.pub
 
 或者直接到C盘中找到`id_rsa.pub`文件（Windows）
 
-##### 2.Github/Gitee 
+##### 2.Github/Gitee添加公钥
 Github
 
 
