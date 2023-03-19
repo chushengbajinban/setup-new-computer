@@ -79,6 +79,8 @@ https://xn--d4ty0ojsqzfd.com 没用过，但有人推荐
 
 https://glados.one  很多人用
 
+https://www.shadowsky.fun/user 包年只需要80，也较为稳定，但是可选择节点少
+
 （持续更新...）
 
 ##### Dashboard 无法进入解决措施
