@@ -80,6 +80,7 @@ https://xn--d4ty0ojsqzfd.com 没用过，但有人推荐
 https://glados.one  很多人用
 
 https://www.shadowsky.fun/user 包年只需要80，也较为稳定，但是可选择节点少
+https://xn--4gq62f52gdss.com/#/knowledge 包年11元，缺点未知
 
 （持续更新...）
 
