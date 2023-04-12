@@ -24,6 +24,11 @@ chsh -s /bin/zsh      //将zsh设置为系统默认shell，新开一个 Shell Se
 ```
 第一次打开后，需要自行配置，可按`Q`键直接退出，下载oh-my-zsh来修改 zsh 的主题和安装常用的插件
 
+安装`curl`
+```
+sudo apt-get update -y && sudo apt-get install curl -y
+```
+
 使用`curl`下载脚本并安装:
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
