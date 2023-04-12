@@ -1,4 +1,9 @@
 # Git 配置
+### 安装git
+```
+sudo apt update
+sudo apt install git
+```
 ### 设置本地全局个人信息（ubuntu）
 ```
 git config --global user.email "you@example.com"
