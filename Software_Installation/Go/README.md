@@ -1,4 +1,5 @@
 # Ubuntu 上 Go 的安装
+[参考](https://www.linuxmi.com/ubuntu-install-go.html#:~:text=%E6%9B%B4%E6%96%B0%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%88%97%E8%A1%A8%E5%B9%B6%E9%94%AE%E5%85%A5%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4%E4%BB%A5%E5%9C%A8%20Ubuntu%2020.04%20%E7%B3%BB%E7%BB%9F%E4%B8%8A%E5%AE%89%E8%A3%85%20Go%EF%BC%9A%20linuxmi%40linuxmi%20%3A~%2Fwww.linuxmi.com%24%20sudo,apt%20update%20linuxmi%40linuxmi%20%3A~%2Fwww.linuxmi.com%24%20sudo%20apt%20install%20golang)
 ## 方法1：使用 Ubuntu apt 仓库安装 Go
 有时，Ubuntu 官方 apt 存储库包含旧版本的 Golang 包。
 在撰写本文时，Ubuntu 20.04 的存储库包含 Golang 1.13.8 版本，这是一个较旧的 Go 语言版本。
