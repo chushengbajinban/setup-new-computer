@@ -13,7 +13,7 @@ sudo apt install golang
 ## 方法2：下载源码安装Go 
 大多数软件应用程序都需要最新版本的 Go 编程语言。在这种情况下，您需要在 Ubuntu 系统上安装最新的 Go 版本。
 在撰写本文时，Go 1.17.1 是可供安装的最新稳定版本。
-因此，在下载二进制存档之前，请在Go官方[https://go.dev/dl/] 下载页面查看最新版本。执行以下步骤以使用源代码方法安装 Go：
+因此，在下载二进制存档之前，请在[Go官方](https://go.dev/dl/)下载页面查看最新版本。执行以下步骤以使用源代码方法安装 Go：
 
 ### 第1步： 下载Go二进制文件
 通过运行以下 wget 命令，在 Ubuntu 20.04 系统上查找并下载最新的稳定版 Go：
@@ -47,4 +47,14 @@ export PATH=$PATH:/usr/local/go/bin
 ```
 source /etc/profile
 go version
+```
+
+### 方法3：使用 Snap 安装 Go
+不建议
+
+# 卸载 Go
+```
+sudo rm -rf /usr/local/go
+sudo gedit /etc/profile # 从 $PATH 中删除源代码行
+source /etc/profile
 ```
