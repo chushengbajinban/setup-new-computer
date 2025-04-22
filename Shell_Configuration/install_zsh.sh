@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # 更新软件包列表
+echo "apt-get update"
 sudo apt-get update
 
 # 安装必要软件
