@@ -24,7 +24,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 sed -i 's/plugins=(git)/plugins=(git zsh-syntax-highlighting zsh-autosuggestions)/g' ~/.zshrc
 
 # 配置.zshrc文件
-sed -i 's/ZSH_THEME="[^"]*"/ZSH_THEME="powerlevel10k/powerlevel10k"/g' ~/.zshrc
+sed -i 's/ZSH_THEME="[^"]*"/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc
 
 # 重新加载配置并切换到新zsh环境
 exec zsh
