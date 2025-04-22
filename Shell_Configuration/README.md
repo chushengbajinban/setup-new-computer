@@ -1,4 +1,11 @@
 # Shell 脚本配置
+### 一键配置zsh
+```
+wget https://raw.githubusercontent.com/chushengbajinban/setup-new-computer/refs/heads/master/Shell_Configuration/install_zsh.sh
+sed -i 's/\r$//' ./install_zsh.sh
+chmod +x ./install_zsh.sh
+./install_zsh.sh
+```
 ### Bash 
 1.快捷键映射`alias`
 
