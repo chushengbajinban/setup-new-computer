@@ -6,6 +6,13 @@ sed -i 's/\r$//' ./install_zsh.sh
 chmod +x ./install_zsh.sh
 ./install_zsh.sh
 ```
+### 添加自定义git函数
+```
+wget -qO ~/.git-mzy.sh https://raw.githubusercontent.com/chushengbajinban/setup-new-computer/master/Shell_Configuration/.git-mzy.sh
+grep -qxF '[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' ~/.bashrc || echo '[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' >> ~/.bashrc
+grep -qxF '[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' ~/.zshrc || echo '[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' >> ~/.zshrc
+source ~/.bashrc 2>/dev/null || source ~/.zshrc 2>/dev/null || true
+```
 ### Bash 
 1.快捷键映射`alias`
 
