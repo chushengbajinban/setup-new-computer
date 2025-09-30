@@ -9,8 +9,8 @@ chmod +x ./install_zsh.sh
 ### 添加自定义git函数
 ```
 wget -qO ~/.git-mzy.sh https://raw.githubusercontent.com/chushengbajinban/setup-new-computer/master/Shell_Configuration/.git-mzy.sh
-grep -qxF '[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' ~/.bashrc || echo -e '\n[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' >> ~/.bashrc
-grep -qxF '[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' ~/.zshrc || echo -e '\n[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' >> ~/.zshrc
+grep -qxF '[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' ~/.bashrc || echo -e '\n\n[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' >> ~/.bashrc
+grep -qxF '[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' ~/.zshrc || echo -e '\n\n[[ -f ~/.git-mzy.sh ]] && source ~/.git-mzy.sh' >> ~/.zshrc
 source ~/.bashrc 2>/dev/null || source ~/.zshrc 2>/dev/null || true
 ```
 ### Bash 
